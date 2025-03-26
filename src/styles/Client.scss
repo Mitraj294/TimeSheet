@@ -1,0 +1,145 @@
+.clients-container {
+    padding: 20px;
+}
+
+/* Header Styling */
+.clients-header {
+    margin-bottom: 10px;
+
+    h1 {
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+/* Top Section: Breadcrumb & Actions */
+.clients-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.breadcrumb {
+    font-size: 14px;
+}
+
+.breadcrumb-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.breadcrumb-link:hover {
+    text-decoration: underline;
+}
+
+/* Action Buttons */
+.clients-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.download-button,
+.add-client-button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.download-button:hover,
+.add-client-button:hover {
+    background-color: #0056b3;
+}
+
+/* Search Box Positioned to the Right */
+.clients-search {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.clients-search input {
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+/* Table Styling */
+.clients-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Table Header */
+.clients-table-header {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 1.5fr 2fr 2fr 1fr;
+    font-weight: bold;
+    background-color: #f8f9fa;
+    padding: 12px;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Table Rows */
+.clients-table-row {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 1.5fr 2fr 2fr 1fr;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+}
+
+/* Alternate row background */
+.clients-table-row:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Table Actions */
+.clients-actions {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+/* Buttons */
+.view-button,
+.edit-button,
+.delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.view-button {
+    color: green;
+}
+
+.edit-button {
+    color: orange;
+}
+
+.delete-button {
+    color: red;
+}
